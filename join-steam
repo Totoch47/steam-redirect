@@ -9,16 +9,14 @@
   <p>Connexion à UniDayZ en cours.</p>
 
   <script>
-    window.location.href = "steam://connect/193.250.140.108:2302";
-
     setTimeout(() => {
-      window.close();
-    }, 1200);
+      window.location.href = "steam://connect/193.250.140.108:2302";
+    }, 300);
   </script>
 
   <p>Si Steam ne s’ouvre pas automatiquement :</p>
   <a href="steam://connect/193.250.140.108:2302" style="color:#ff4444;font-size:22px;">
-    Rejoindre UniDayZ avec Steam
+    Rejoindre avec Steam
   </a>
 </body>
 </html>
